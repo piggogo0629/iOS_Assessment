@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="issue2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hW7-Xj-3Wh">
+                                <rect key="frame" x="165" y="501" width="135" height="57"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="URA-sg-hhc">
+                                <rect key="frame" x="20" y="501" width="135" height="57"/>
+                                <color key="backgroundColor" red="1" green="0.45883488659999999" blue="0.45101088290000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hW7-Xj-3Wh" firstAttribute="leading" secondItem="URA-sg-hhc" secondAttribute="trailing" constant="10" id="36Y-wQ-MeD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="URA-sg-hhc" secondAttribute="bottom" constant="10" id="7PT-Aw-Uoi"/>
+                            <constraint firstItem="URA-sg-hhc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="KtI-uY-urx"/>
+                            <constraint firstItem="URA-sg-hhc" firstAttribute="width" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="MnR-hn-Lhx"/>
+                            <constraint firstItem="URA-sg-hhc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="RLW-bI-0gT"/>
+                            <constraint firstItem="hW7-Xj-3Wh" firstAttribute="width" secondItem="URA-sg-hhc" secondAttribute="width" id="bpg-Xo-bZ6"/>
+                            <constraint firstAttribute="trailing" secondItem="hW7-Xj-3Wh" secondAttribute="trailing" constant="20" id="fbu-1Q-hf2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hW7-Xj-3Wh" secondAttribute="bottom" constant="10" id="g3P-gP-DXO"/>
+                            <constraint firstItem="hW7-Xj-3Wh" firstAttribute="height" secondItem="URA-sg-hhc" secondAttribute="height" id="zBO-oQ-OQF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.875" y="119.36619718309859"/>
+        </scene>
+    </scenes>
+</document>
