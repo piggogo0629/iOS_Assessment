@@ -6,9 +6,6 @@
 //
 //
 
-// https://www.raywenderlich.com/110458/nsurlsession-tutorial-getting-started
-// http://jamesonquave.com/blog/making-a-post-request-in-swift/
-
 
 import UIKit
 

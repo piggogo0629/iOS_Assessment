@@ -5,8 +5,6 @@
 //  Created by Ollie on 2016/12/6.
 //  Copyright © 2016年 Ollie. All rights reserved.
 //
-// http://stackoverflow.com/questions/28152526/how-do-i-open-phone-settings-when-a-button-is-clicked-ios
-// http://stackoverflow.com/questions/30987986/ios-9-not-opening-instagram-app-with-url-scheme
 
 import UIKit
 import MessageUI

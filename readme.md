@@ -5,11 +5,12 @@
 ![Imgur](http://i.imgur.com/reiXAntm.png?1)
 
 ###isue3. Server Request
-- 撰寫一程式，發get到https://httpbin.org/get，接收回傳資料把origin的值用NSlog印出來
-- 撰寫一程式，發post到https://httpbin.org/post，post的body是JSON格式：{“time”:”2016-08-17 12:00:00”}，將時間替換為post送出的時間並且用dateFormatter產生上述格式，再把收到回傳時的時間跟time值做比較，算出request花費的時間，用NSlog印出來
+- 撰寫一程式，發get到 https://httpbin.org/get，接收回傳資料把origin的值用NSlog印出來
+- 撰寫一程式，發post到 https://httpbin.org/post，post的body是JSON格式：{ “time” : ”2016-08-17 12:00:00” }，將時間替換為post送出的時間並且用dateFormatter產生上述格式，再把收到回傳時的時間跟time值做比較，算出request花費的時間，用NSlog印出來
 
 ###issue4. UICollectionView
 - 實作 collection view custom cell。點選cell會執行對應動作。
+
 ![Imgur](http://i.imgur.com/CTUVz6rm.png)
 
 ###issue5. UITableView & Camera
