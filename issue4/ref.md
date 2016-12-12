@@ -9,6 +9,8 @@
 ## 各功能
 
 ### 1. Step Count:使用Core Motion
+> info.plist add key : Privacy - Motion Usage Description
+
 1. [How to access the Step Counter and Pedometer Data in iOS 9](http://pinkstone.co.uk/how-to-access-the-step-counter-and-pedometer-data-in-ios-9/)
 2. [iOS Swift Development : Step Counter app using Pedometer data](http://shrikar.com/ios-swift-development-step-counter-app-using-pedometer-data/)
 3. [stackoverflow : cmpedometer-in-ios-10](http://stackoverflow.com/questions/38412977/cmpedometer-in-ios-10)
@@ -21,8 +23,7 @@
 1. [stackoverflow : open the phone settings](http://stackoverflow.com/questions/28152526/how-do-i-open-phone-settings-when-a-button-is-clicked-ios)
 
 ### 3. 開啟Google Map App
-
-> Keypoint : info.plist add key
+> info.plist add key :
   ```
   <key>LSApplicationQueriesSchemes</key>
   <array>
